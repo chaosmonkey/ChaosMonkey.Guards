@@ -17,3 +17,24 @@ Ex.
 
 If the  expected conition is not met a GuardException will be thrown.
 
+##Methods##
+* Guard.IsNotNull 
+* Guard.IsNotEmpty 
+* Guard.IsNotEmpty 
+* Guard.IsNotNullOrEmpty 
+* Guard.IsNotNullOrEmpty 
+* Guard.IsNotNullOrWhiteSpace 
+* Guard.IsGreaterThan 
+* Guard.IsGreaterThanOrEqualTo 
+* Guard.IsLessThan 
+* Guard.IsLessThanOrEqualTo 
+* Guard.IsEqualTo 
+* Guard.IsNotEqualTo 
+* Guard.IsInRange 
+* Guard.IsInRangeExclusive 
+* Guard.IsNotInRange 
+* Guard.IsNotInRangeExclusive 
+* Guard.IsRequiredThat 
+* Guard.IsTrue 
+* Guard.IsFalse 
+
