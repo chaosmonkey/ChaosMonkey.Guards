@@ -15,9 +15,11 @@ Ex.
   }
 ```
 
-If the  expected conition is not met a GuardException will be thrown.
+If the expected condition is not met a GuardException will be thrown.  The message will either be a short description of the violationincluding the argument name or the specified custom message as the case may be.  
 
 ##Methods##
+Most methods accept an argument and the name of the argument as parameters.  Some also require other parameters, for example the IsGreaterThan method takes a parameter that the argument must be greater than.  Most of the parameters should be self explanatory, but intellisense should also provide a description or you can review the xml comments in the source for more details.
+
 * Guard.IsNotNull 
 * Guard.IsNotEmpty 
 * Guard.IsNotEmpty 
