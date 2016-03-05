@@ -10,6 +10,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build Files", "Build Files", "{77D05625-43E8-407F-8B92-AD69E327515F}"
 	ProjectSection(SolutionItems) = preProject
 		..\.gitignore = ..\.gitignore
+		..\appveyor.yml = ..\appveyor.yml
+		ChaosMonkey.Guards.nuspec = ChaosMonkey.Guards.nuspec
+		..\version-package.ps1 = ..\version-package.ps1
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{FDA3C4BB-EB65-4DEB-9921-48636414FE75}"
