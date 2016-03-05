@@ -7,6 +7,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChaosMonkey.Guards", "Chaos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChaosMonkey.Guards.Tests", "ChaosMonkey.Guards.Tests\ChaosMonkey.Guards.Tests.csproj", "{3F1A177C-34A7-4220-A1AF-D70C5E6957F4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build Files", "Build Files", "{77D05625-43E8-407F-8B92-AD69E327515F}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{FDA3C4BB-EB65-4DEB-9921-48636414FE75}"
+	ProjectSection(SolutionItems) = preProject
+		..\License.txt = ..\License.txt
+		..\ReadMe.md = ..\ReadMe.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
