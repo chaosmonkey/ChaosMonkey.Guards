@@ -14,7 +14,7 @@ build:
   publish_nuget: true
   verbosity: minimal
 after_build:
- -ps: .\pack.ps1
+- ps: .\pack.ps1
 nuget:
   account_feed: true
   project_feed: true
