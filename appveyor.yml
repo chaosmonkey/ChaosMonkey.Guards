@@ -1,4 +1,4 @@
-version: 1.0.0.{build}
+version: 1.0.{build}
 configuration: Release
 shallow_clone: true
 assembly_info:
@@ -13,6 +13,8 @@ before_build:
 build:
   publish_nuget: true
   verbosity: minimal
+after_build:
+ -ps: .\pack.ps1
 nuget:
   account_feed: true
   project_feed: true
