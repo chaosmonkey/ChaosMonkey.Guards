@@ -10,3 +10,5 @@ assembly_info:
 build:
   publish_nuget: true
   verbosity: minimal
+before_package:
+- ps: nuget restore
