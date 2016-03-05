@@ -13,6 +13,9 @@ before_build:
 build:
   publish_nuget: true
   verbosity: minimal
+nuget:
+  account_feed: true
+  project_feed: true
 artifacts:
 - path: source\ChaosMonkey.Guards\bin\release\ChaosMonkey.Guards.dll
 - path: source\ChaosMonkey.Guards\bin\release\
