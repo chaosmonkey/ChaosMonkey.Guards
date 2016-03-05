@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
     <metadata minClientVersion="2.8">
         <id>ChaosMonkey.Guards</id>
-        <version>{version}</version>
+        <version>$version$</version>
         <title>ChaosMonkey.Guards</title>
         <authors>Larry House</authors>
         <licenseUrl>https://github.com/chaosmonkey/ChaosMonkey.Guards/blob/documentation/License.txt</licenseUrl>
