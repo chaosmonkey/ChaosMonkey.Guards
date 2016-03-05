@@ -8,3 +8,4 @@ $nuspec = Get-ChildItem "ChaosMonkey.Guards.nuspec" -recurse | Select-Object -Fi
 $content = Get-Content($nuspec)
 $content = $content -replace '\$version\$', $version
 $content | Out-File $nuspec
+& NuGet.exe pack $nuspec
