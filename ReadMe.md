@@ -3,6 +3,34 @@ A Code Guard Library for .NET
 
 ChaosMonkey.Guards is a library to make it simple to add and easy to read guard clauses in you .Net methods.
 
+**Guard**
+
+>*A boolean expression that must evaluate to true if the program execution is to continue in the branch in question.*
+-- [Wikipedia](https://en.wikipedia.org/wiki/Guard_(computer_science))
+
+Typically guard statements are added at the beginning of a method call to verify that certain conditions have been met by the arguments that were passed into the call.  For example a null check.  The idea is that it is better to verify that the value is not illegal (null in this case) and fail fast if it is, rather than allow the code to fail at a later point due to the invalid input.
+    
+    public void DoSomeWork(string text)
+    {
+        if(text==null)
+        {
+            throw new ArgumentNullException("text");
+        }
+        // You should do some work here...
+    }
+
+
+## Builds/ Continuous Integration ##
+
+[![Build status](https://ci.appveyor.com/api/projects/status/ul8uoui2xod86fos?svg=true)](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards)
+
+### Latest Build ###
+* [Build Output - Console](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards)
+* [Test Results ](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards/build/tests)
+* [Build Artifacts](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards/build/artifacts)
+### History ###
+* [Build History](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards/history)
+
 ##Usage##
 Simply use one of the methods on the Guard class to verify your expectations.
 Ex.
