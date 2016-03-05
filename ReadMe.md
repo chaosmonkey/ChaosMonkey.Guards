@@ -1,4 +1,6 @@
 # ChaosMonkey.Guards#
+[![Build status](https://ci.appveyor.com/api/projects/status/ul8uoui2xod86fos?svg=true)](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards)
+
 A Code Guard Library for .NET
 
 ChaosMonkey.Guards is a library to make it simple to add and easy to read guard clauses in you .Net methods.
@@ -21,8 +23,6 @@ Typically guard statements are added at the beginning of a method call to verify
 
 
 ## Builds/ Continuous Integration ##
-
-[![Build status](https://ci.appveyor.com/api/projects/status/ul8uoui2xod86fos?svg=true)](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards)
 
 ### Latest Build ###
 * [Build Output - Console](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards)
