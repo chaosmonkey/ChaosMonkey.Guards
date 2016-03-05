@@ -28,7 +28,7 @@ Typically guard statements are added at the beginning of a method call to verify
 * [Build Output - Console](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards)
 * [Test Results ](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards/build/tests)
 * [Build Artifacts](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards/build/artifacts)
-* 
+
 ### History ###
 * [Build History](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards/history)
 
