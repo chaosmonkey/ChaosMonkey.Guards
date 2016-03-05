@@ -21,17 +21,6 @@ Typically guard statements are added at the beginning of a method call to verify
         // You should do some work here...
     }
 
-
-## Builds/ Continuous Integration ##
-
-### Latest Build ###
-* [Build Output - Console](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards)
-* [Test Results ](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards/build/tests)
-* [Build Artifacts](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards/build/artifacts)
-
-### History ###
-* [Build History](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards/history)
-
 ##Usage##
 Simply use one of the methods on the Guard class to verify your expectations.
 Ex.
@@ -68,4 +57,15 @@ Most methods accept an argument and the name of the argument as parameters.  Som
 * Guard.IsRequiredThat 
 * Guard.IsTrue 
 * Guard.IsFalse 
+
+
+## Builds/ Continuous Integration ##
+
+### Latest Build ###
+* [Build Output - Console](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards)
+* [Test Results ](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards/build/tests)
+* [Build Artifacts](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards/build/artifacts)
+
+### History ###
+* [Build History](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards/history)
 
