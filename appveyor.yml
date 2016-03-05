@@ -15,3 +15,6 @@ build:
   verbosity: minimal
 artifacts:
 - path: source\ChaosMonkey.Guards\bin\release\ChaosMonkey.Guards.dll
+- path: source\ChaosMonkey.Guards\bin\release\
+  name: ChaosMonkey.Guards.Release
+  type: zip
