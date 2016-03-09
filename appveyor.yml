@@ -23,4 +23,4 @@ artifacts:
 - path: source\ChaosMonkey.Guards\bin\release\
   name: ChaosMonkey.Guards.Release
   type: zip
-- path: '**\*.nupkg' # find all NuGet packages recursively
+- path: '**\ChaosMonkey*.nupkg' # find all NuGet packages recursively
