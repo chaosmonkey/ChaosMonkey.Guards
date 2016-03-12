@@ -7,10 +7,10 @@
         <authors>Larry House</authors>
         <licenseUrl>https://github.com/chaosmonkey/ChaosMonkey.Guards/blob/documentation/License.txt</licenseUrl>
         <projectUrl>https://github.com/chaosmonkey/ChaosMonkey.Guards</projectUrl>
-        <iconUrl>https://s.gravatar.com/avatar/5c6068795f2b5f13a98422ba2956ec38?s=80</iconUrl>
+        <iconUrl>https://secure.gravatar.com/avatar/38a2b68436e56e9e3caf1fd5bd9487e0?s=80</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>A Code Guard Library for .NET</description>
-        <summary>ChaosMonkey.Guards is a library to make it simple to add and easy to read guard clauses in you .Net methods.</summary>
+        <summary>ChaosMonkey.Guards is a library to make it simple to add and easy to read guard clauses in your .Net methods.</summary>
         <copyright>© Copyright 2015 Larry House</copyright>
         <language>en-US</language>
     </metadata>
