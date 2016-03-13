@@ -69,3 +69,8 @@ Most methods accept an argument and the name of the argument as parameters.  Som
 ### History ###
 * [Build History](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards/history)
 
+## NuGet ##
+[NuGet Gallery](https://www.nuget.org/packages/ChaosMonkey.Guards/1.0.30 )
+
+**Package Manager Console Command**
+<pre>Install-Package ChaosMonkey.Guards </pre>
