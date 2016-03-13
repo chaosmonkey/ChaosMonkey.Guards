@@ -72,5 +72,5 @@ Most methods accept an argument and the name of the argument as parameters.  Som
 ## NuGet ##
 [NuGet Gallery](https://www.nuget.org/packages/ChaosMonkey.Guards/1.0.30 )
 
-**Package Manager Console Command**
+**Package Manager Console Installation Command**
 <pre>Install-Package ChaosMonkey.Guards </pre>
