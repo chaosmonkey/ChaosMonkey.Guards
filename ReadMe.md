@@ -1,4 +1,4 @@
-# ChaosMonkey.Guards#
+# ChaosMonkey.Guards
 [![Build status](https://ci.appveyor.com/api/projects/status/ul8uoui2xod86fos?svg=true)](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards)
 
 A Code Guard Library for .NET
