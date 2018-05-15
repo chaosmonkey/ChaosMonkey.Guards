@@ -1,5 +1,6 @@
-# ChaosMonkey.Guards#
-[![Build status](https://ci.appveyor.com/api/projects/status/ul8uoui2xod86fos?svg=true)](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards)
+# ChaosMonkey.Guards
+[![Build status](https://chaosmonkey.visualstudio.com/_apis/public/build/definitions/33b70623-6ef7-44e8-8403-640f47be80a7/18/badge)
+
 
 A Code Guard Library for .NET
 
@@ -21,7 +22,7 @@ Typically guard statements are added at the beginning of a method call to verify
         // You should do some work here...
     }
 
-##Usage##
+##Usage
 Simply use one of the methods on the Guard class to verify your expectations.
 Ex.
 ```csharp
@@ -35,7 +36,7 @@ Ex.
 
 If the expected condition is not met a GuardException will be thrown.  The message will either be a short description of the violation including the argument name or the specified custom message as the case may be.  
 
-##Methods##
+##Methods
 Most methods accept an argument and the name of the argument as parameters.  Some also require other parameters, for example the IsGreaterThan method takes a parameter that the argument must be greater than.  Most of the parameters should be self explanatory, but intellisense should also provide a description or you can review the xml comments in the source for more details.
 
 * Guard.IsNotNull 
@@ -58,18 +59,7 @@ Most methods accept an argument and the name of the argument as parameters.  Som
 * Guard.IsTrue 
 * Guard.IsFalse 
 
-
-## Builds/ Continuous Integration ##
-
-### Latest Build ###
-* [Build Output - Console](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards)
-* [Test Results ](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards/build/tests)
-* [Build Artifacts](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards/build/artifacts)
-
-### History ###
-* [Build History](https://ci.appveyor.com/project/chaosmonkey/chaosmonkey-guards/history)
-
-## NuGet ##
+## NuGet
 [NuGet Gallery](https://www.nuget.org/packages/ChaosMonkey.Guards/1.0.30 )
 
 **Package Manager Console Installation Command**
